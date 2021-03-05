@@ -2,19 +2,144 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="template.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column1 {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    .column2 {
+      float: left;
+      width: 70%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
 </head>
 <html>
-    <dl>
-        <div>
-            <dt>software</dt>
-            <div>
-                <dd>Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.</dd>
-            </div>>
+    <div class="row">
+        <div class="column1" style="background-color:#aaa;">
+            <img style="width: 280px; height: 280px;" src="foto.png" alt="foto">
+        </div>
+        <div class="column2" style="background-color:#bbb;">
+            <label style="font-weight: bold;">Nombre y Apellido:</label> Victor Gonzalez
+            <br>
+            <br>
+            <label style="font-weight: bold;">Fecha de Nacimiento:</label> 29/07/1983
+        </div>
+            
+        <hr>
+
+
+        <div class="column1" style="background-color:#aaa;">
+          <h2>Informacion de Contacto</h2>
         </div>
         
-       
-      
-      </dl>
+        <div class="column2" style="background-color:#bbb;">
+            <label style="font-weight: bold;">Telefono:</label> 0972106550
+            <br>
+            <br>
+            <label style="font-weight: bold;">Email:</label> victorogc@fpuna.edu.py
+            <br>
+            <br>
+            <label style="font-weight: bold;">Twitter:</label> https://twitter.com/victororlando
+            <br>
+            <br>
+            <label style="font-weight: bold;">Linkedin:</label> https://www.linkedin.com/in/victoro/
+          <h2></h2>
+        </div>
+
+        <hr>
+        <div class="column1" style="background-color:#aaa; height: 600px !important;">
+            <h2>Historial Académico</h2>
+          </div>
+          
+          <div class="column2" style="background-color:#bbb; height: 600px !important;">
+              <label style="font-weight: bold;">Primaria - 1989/1995</label> 
+              <p>Colegio Apostolico San Jose</p>
+              <br>
+              <br>
+
+              <label style="font-weight: bold;">Secundaria Básica - 1996/1998</label> 
+              <p>Colegio Apostolico San Jose</p>
+              <br>
+              <br>
+
+              <label style="font-weight: bold;">Secundaria Bachillerato - 1999/2001</label> 
+              <p>Colegio E.M.D. Dr. Fernando de la Mora</p>
+              <br>
+              <br>
+
+              <label style="font-weight: bold;">Universitario</label> 
+              <p>- Universidad Nacional de Asuncion - Facultad Politécnica</p>
+              <p>Ingenieria en Informática - 2003/2006</p>
+              <br>
+              <br>
+
+              <p>- Universidad Nacional de Asuncion - Facultad Politécnica</p>
+              <p>Licenciatura en Ciencias Informáticas- 2014/2021</p>
+              <br>
+              <br>
+
+
+             
+          </div>
+
+          <hr>
+          <div class="column1" style="background-color:#aaa;">
+            <h2>Experiencia Laboral</h2>
+          </div>
+          
+          <div class="column2" style="background-color:#bbb;">
+              <label style="font-weight: bold;">Idtknology - 2013/2018</label>
+              <p>- Desarrollador Java</p>
+              <p>Desarollo de sistemas para Banco Itau</p>
+              <br>
+              <br>
+
+              <label style="font-weight: bold;">Timwetech - 2019/2021</label>
+              <p>- Analista de Rollout</p>
+              <p>Soporte de sistemas, relevamiento y despliegue de aplicaciones en produccion</p>
+              <br>
+              <br>
+              
+            <h2></h2>
+          </div>
+
+          <hr>
+
+          <div class="column1" style="background-color:#aaa;">
+            <h2>Hobbies/Pasatiempos</h2>
+          </div>
+          
+          <div class="column2" style="background-color:#bbb;">
+              
+              <p>- Ver futbol</p>
+              <p>- Jugador Padel</p>
+              <p>- Leer</p>              
+              
+              
+            <h2></h2>
+          </div>
   
+
+
+      </div>
+
+
 </html>
